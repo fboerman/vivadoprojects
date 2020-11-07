@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../axis_stream_sim.srcs/sources_1/bd/design_1/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
+"../../../../axis_stream_sim.ip_user_files/bd/design_1/ipshared/51d1/hdl/shifter2_v1_0.v" \
+"../../../../axis_stream_sim.ip_user_files/bd/design_1/ip/design_1_shifter2_0_0/sim/design_1_shifter2_0_0.v" \
+
+sv xil_defaultlib  --include "../../../../axis_stream_sim.srcs/sources_1/bd/design_1/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
+"../../../../axis_stream_sim.ip_user_files/bd/design_1/ip/design_1_axi4stream_vip_0_0/sim/design_1_axi4stream_vip_0_0_pkg.sv" \
+"../../../../axis_stream_sim.ip_user_files/bd/design_1/ip/design_1_axi4stream_vip_0_0/sim/design_1_axi4stream_vip_0_0.sv" \
+"../../../../axis_stream_sim.ip_user_files/bd/design_1/ip/design_1_axi4stream_vip_1_0/sim/design_1_axi4stream_vip_1_0_pkg.sv" \
+"../../../../axis_stream_sim.ip_user_files/bd/design_1/ip/design_1_axi4stream_vip_1_0/sim/design_1_axi4stream_vip_1_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../axis_stream_sim.srcs/sources_1/bd/design_1/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
+"../../../../axis_stream_sim.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../axis_stream_sim.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../axis_stream_sim.srcs/sources_1/bd/design_1/ipshared/8713/hdl" --include "/opt/Xilinx/Vivado/2019.2/data/xilinx_vip/include" \
+"../../../../axis_stream_sim.srcs/sim_1/new/axis_testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

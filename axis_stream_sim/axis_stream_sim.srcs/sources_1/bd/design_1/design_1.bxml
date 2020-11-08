@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="39">
   <CompositeFile CompositeFileTopName="design_1" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1604785703"/>
-    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1604785703"/>
-    <Generation Name="SIMULATION" State="RESET" Timestamp="1604785703"/>
-    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1604785703"/>
+    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1604829315"/>
+    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1604829315"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1604829315"/>
+    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1604829315"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip/design_1_shifter2_0_0/design_1_shifter2_0_0.xci" Type="IP">
         <Instance HierarchyPath="shifter2_0"/>
